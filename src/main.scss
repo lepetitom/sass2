@@ -3,6 +3,7 @@ $danger:  rgb(155, 46, 46);
 $Warning: rgb(102, 28, 28);
 $succes: rgb(50, 128, 50);
 $dark: rgb(19, 19, 19);
+$light: rgb(224, 224, 224);
 
 h1{
     color: $dark;
@@ -15,5 +16,13 @@ h1{
 
     &:hover{
         background: $dark;
+    }
+    &-danger{
+        background: $danger;
+        color: $light;
+    }
+    &-warning{
+        background: $Warning;
+        color: $light;
     }
 }
