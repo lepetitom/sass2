@@ -1,0 +1,14 @@
+h1 {
+  color: #131313;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.btn:hover {
+  background: #131313;
+}
+
+/*# sourceMappingURL=style.css.map */
