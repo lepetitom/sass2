@@ -28,4 +28,19 @@ h1 {
   font-size: 30px;
 }
 
+.alert-light, .alert-warning, .alert-danger {
+  padding: 30px;
+  font-size: 10px;
+  border: 1px solid #131313;
+}
+
+.alert-danger {
+  background: #9b2e2e;
+  color: #e0e0e0;
+}
+
+.alert-warning {
+  background: #9b2e2e;
+}
+
 /*# sourceMappingURL=style.css.map */

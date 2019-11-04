@@ -26,5 +26,25 @@ h1{
 
 
 h1{
-    @include camion(red)
+    @include camion(red);
+}
+
+%alert{
+    padding: 30px;
+    font-size: 10px;
+    border: 1px solid $dark;
+}
+.alert-danger{
+    @extend %alert;
+    background: $danger;
+    color: $light;
+
+}
+.alert-warning{
+    @extend %alert;
+    background: $danger;
+
+}
+.alert-light{
+    @extend %alert
 }
