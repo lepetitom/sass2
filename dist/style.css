@@ -10,5 +10,13 @@ h1 {
 .btn:hover {
   background: #131313;
 }
+.btn-danger {
+  background: #9b2e2e;
+  color: #e0e0e0;
+}
+.btn-warning {
+  background: #661c1c;
+  color: #e0e0e0;
+}
 
 /*# sourceMappingURL=style.css.map */
