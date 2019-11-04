@@ -1,15 +1,6 @@
-$myVariable: red;
-$danger:  rgb(155, 46, 46);
-$Warning: rgb(102, 28, 28);
-$succes: rgb(50, 128, 50);
-$dark: rgb(19, 19, 19);
-$light: rgb(224, 224, 224);
+@import "variables.scss";
+@import "mixins.scss";
 
-@mixin camion {
-    border: 2px  solid $dark;
-    background-color: $succes;
-    font-size: 30px;
-}
 h1{
     color: $dark;
 }
@@ -29,11 +20,11 @@ h1{
     &-warning{
         background: $Warning;
         color: $light;
-        @include camion;
+        @include camion(red);
     }
 }
 
 
 h1{
-    @include camion
+    @include camion(red)
 }
