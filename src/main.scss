@@ -5,6 +5,11 @@ $succes: rgb(50, 128, 50);
 $dark: rgb(19, 19, 19);
 $light: rgb(224, 224, 224);
 
+@mixin camion {
+    border: 2px  solid $dark;
+    background-color: $succes;
+    font-size: 30px;
+}
 h1{
     color: $dark;
 }
@@ -24,5 +29,11 @@ h1{
     &-warning{
         background: $Warning;
         color: $light;
+        @include camion;
     }
+}
+
+
+h1{
+    @include camion
 }
